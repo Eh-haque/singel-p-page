@@ -1,0 +1,63 @@
+/* for change image */
+/* .container-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.container-img ul {
+    margin: 0;
+    padding: 0;
+}
+.container-img ul li {
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 2px;
+}
+.container-img ul li img {
+    width: 100%;
+}
+/* .imgBox {
+    float: left;
+    margin-left: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+} */
+
+/* magnify */
+#magnifying-area {
+    height: 75vh;
+    width: calc(75vh);
+    overflow: hidden;
+    position: relative;
+}
+#magnifying-img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+/* card */
+.card-area:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+.card-image {
+    overflow: hidden;
+}
+.card-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.card-image img:hover {
+    transform: scale(1.25);
+    transition: 2s;
+}
