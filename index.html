@@ -16,37 +16,49 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <section class="container">
-            <h1>Single Product Page</h1>
-            <div>
+        <section class="container my-3">
+            <h1 class="mb-3 text-success">Single Product Page</h1>
+            <div class="d-flex">
                 <div class="d-flex container-img">
                     <ul>
-                        <li class="link">
+                        <li title="Click to Open New Tab, Hover to Zoom">
                             <a
                                 class="lil"
-                                href="images/chor-tsang-e_5NhSomvS4-unsplash.jpg"
+                                target="_blank"
+                                href="/images/chor-tsang-e_5NhSomvS4-unsplash.jpg"
                                 ><img
                                     src="images/chor-tsang-e_5NhSomvS4-unsplash.jpg"
                             /></a>
                         </li>
-                        <li class="link">
+                        <li>
                             <a
                                 class="lil"
-                                href="images/dhruv-N9UuFddi7hs-unsplash.jpg"
+                                target="_blank"
+                                href="/images/dhruv-N9UuFddi7hs-unsplash.jpg"
                                 ><img
                                     src="images/dhruv-N9UuFddi7hs-unsplash.jpg"
                             /></a>
                         </li>
-                        <li class="link">
+                        <li>
                             <a
                                 class="lil"
-                                href="images/heber-galindo-esfElMv6EuA-unsplash.jpg"
+                                target="_blank"
+                                href="/images/heber-galindo-esfElMv6EuA-unsplash.jpg"
                                 ><img
                                     src="images/heber-galindo-esfElMv6EuA-unsplash.jpg"
                             /></a>
                         </li>
+                        <li>
+                            <a
+                                class="lil"
+                                target="_blank"
+                                href="images/pexels-ray-piedra-1464625.jpg"
+                                ><img
+                                    src="images/pexels-ray-piedra-1464625.jpg"
+                            /></a>
+                        </li>
                     </ul>
-                    <div class="imgBox" id="magnifying-area">
+                    <div class="imgBox mx-3" id="magnifying-area">
                         <!-- Image zoom -->
 
                         <img
@@ -56,11 +68,45 @@
                         />
                     </div>
                 </div>
+
+                <!-- description section  -->
+                <div>
+                    <h3>Product Name</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Aliquam autem culpa delectus consequatur, expedita
+                        ipsam ipsa, amet dolorem possimus fugiat pariatur
+                        placeat exercitationem tempore ex! Magnam pariatur atque
+                        sint assumenda aspernatur dicta doloremque soluta
+                        dignissimos rerum unde nobis animi doloribus asperiores
+                        quasi, quaerat ea dolore libero natus alias sit nostrum?
+                    </p>
+
+                    <span>Ratings</span>
+                    <h2>Price : $50</h2>
+
+                    <label for="Quantity">Select Quantity</label>
+                    <select name="Quantity" id="" label="qw">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br />
+
+                    <div class="mt-3">
+                        <button class="btn btn-outline-secondary">
+                            Add to Cart
+                        </button>
+                        <button class="btn btn-outline-success">Buy Now</button>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- bottom img card -->
-        <section class="container">
+        <section class="container my-5">
             <!-- image cart -->
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">

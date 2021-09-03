@@ -1,10 +1,10 @@
 // for change image
-const link = document.getElementsByClassName('link');
+const link = document.getElementsByClassName('lil');
 const imgBox = document.querySelector('.imgBox>img');
-const figure = document.getElementsByTagName('figure')
 
-for (const img of link) {
-    img.addEventListener('mouseover', (e) => imgBox.src = img.href)
+for (const el of link) {
+    el.addEventListener('mouseover', (e) => imgBox.src = el.href)
+    // console.log(el.href);
 }
 // link.forEach(el => {
 //     el.addEventListener('mouseover', (e) => imgBox.src = el.href);

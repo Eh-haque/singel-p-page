@@ -1,10 +1,4 @@
 /* for change image */
-/* .container-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 .container-img ul {
     margin: 0;
     padding: 0;
@@ -20,11 +14,6 @@
 .container-img ul li img {
     width: 100%;
 }
-/* .imgBox {
-    float: left;
-    margin-left: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-} */
 
 /* magnify */
 #magnifying-area {
@@ -32,6 +21,7 @@
     width: calc(75vh);
     overflow: hidden;
     position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 #magnifying-img {
     height: 100%;
