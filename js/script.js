@@ -3,7 +3,7 @@ const link = document.getElementsByClassName('lil');
 const imgBox = document.querySelector('.imgBox>img');
 
 for (const el of link) {
-    el.addEventListener('mouseover', (e) => imgBox.src = el.href)
+    el.addEventListener('mouseover', (e) => imgBox.src = el.src)
     // console.log(el.href);
 }
 // link.forEach(el => {

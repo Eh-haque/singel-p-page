@@ -8,11 +8,14 @@
     width: 100px;
     height: 100px;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    object-fit: cover;
     overflow: hidden;
     margin-top: 2px;
 }
 .container-img ul li img {
-    width: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
 
 /* magnify */
